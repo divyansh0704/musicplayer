@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+}
+
+main {
+    width: 24vw;
+    background-color: aqua;
+    height: 95vh;
+    margin: auto;
+    background-color: #121212;
+}
+
+.spotify {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: #121212;
+    border-bottom: none;
+    width: 100%;
+    max-height: 100px;
+}
+
+.spotifylogo {
+    height: 35px;
+    text-align: left;
+}
+
+.spotifylogo span {
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 40px;
+}
+
+.signupheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.span1,
+.span2 {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.span2 {
+    padding-right: 35px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 35px;
+    padding-left: 5px;
+    gap: 10px;
+}
+
+.email label {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#myemail {
+    height: 40px;
+    width: 305px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+    padding: 2px 9px;
+    font-size: 1rem;
+}
+
+#myemail:hover {
+    border: 1px solid white;
+}
+
+.phone {
+    padding-top: 5px;
+}
+
+.phone a {
+    font-size: 14px;
+    color: #1ED760;
+    font-weight: 700;
+    padding: 5px;
+}
+
+.nextbutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+button {
+    width: 320px;
+    height: 45px;
+    border-radius: 9999px;
+    border: none;
+    font-size: inherit;
+    background-color: #1ED760;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.hr-lines {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hr-lines .line {
+    height: 2px;
+    background: gray;
+    position: absolute;
+    top: 50%;
+    width: 80%;
+    left: 10%;
+    border-radius: 20px;
+}
+
+.hr-lines .text {
+    position: relative;
+    z-index: 1;
+    background-color: #121212;
+    color: white;
+    padding: 0px 10px;
+}
+
+
+.orline {
+    font-size: 14px;
+    padding: 11px;
+}
+
+.options {
+    height: 25vh;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin: 5px;
+    width: 17vw;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    gap: 10px;
+    font-size: 15px;
+    gap: 2vw;
+}
+
+.option:hover {
+    border: 2px solid white;
+}
+
+.options a {
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accountline {
+    width: 80%;
+    height: 1px;
+    background-color: gray;
+}
+
+.already {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.already span {
+    font-size: 14px;
+    padding-top: 30px;
+    color: gray;
+    font-weight: bold;
+}
+
+.already a {
+    color: white;
+    font-weight: bold;
+}
+
+.captcha {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.captcha span {
+    color: gray;
+    font-size: 11px;
+}
+
+.captcha a {
+    color: white;
+}

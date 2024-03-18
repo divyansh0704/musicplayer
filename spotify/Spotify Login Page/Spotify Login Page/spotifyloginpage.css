@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    padding: 83px;
+    background-image: linear-gradient(to bottom, #1a1a1a, black);
+    border: none;
+}
+
+.spotify {
+    display: flex;
+    align-items: center;
+    padding: 30px 0px;
+    background-color: black;
+    border-bottom: none;
+    width: 100%;
+    max-height: 100px;
+}
+
+.spotifylogo {
+    height: 35px;
+    text-align: left;
+}
+
+.spotifylogo span {
+    font-size: 28px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 40px;
+}
+
+
+.login {
+    background-color: black;
+    width: 50vw;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login h1 {
+    font-size: 45px;
+    padding: 25px;
+}
+
+.heading {
+    color: white;
+    padding: 10px;
+}
+
+.options {
+    height: 30vh;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    border: 2px solid gray;
+    border-radius: 30px;
+    margin: 5px;
+    width: 17vw;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.option:hover {
+    border: 2px solid white;
+}
+
+.options a {
+    text-decoration: none;
+}
+
+/* Detail Form */
+
+.form {
+    background-color: black;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.username,
+.password {
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 15px;
+    color: white;
+}
+
+.remember {
+    font-weight: 700;
+    margin-right: 110px;
+    color: white;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+#myusername {
+    width: 240px;
+    height: 40px;
+    font-size: 17px;
+    margin: 5px;
+    margin-left: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #121212;
+    border: 2px solid gray;
+    color: white;
+}
+
+#myusername:hover {
+    border: 2px solid white;
+}
+
+#mypassword {
+    width: 240px;
+    height: 40px;
+    font-size: 17px;
+    margin: 5px;
+    margin-left: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #121212;
+    border: 2px solid gray;
+    color: white;
+}
+
+#mypassword:hover {
+    border: 2px solid white;
+}
+
+#remember {
+    padding-left: 10px;
+
+}
+
+
+
+.end {
+    background-color: black;
+    height: 20vh;
+    width: 100%;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    width: 280px;
+    height: 45px;
+    border-radius: 50px;
+    background-color: #1ED760;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover {
+    width: 285px;
+    height: 46px;
+}
+
+/* Forgot Password */
+
+.forgotpassword {
+    text-align: center;
+    padding: 45px;
+}
+
+.forgotpassword a {
+    font-weight: bold;
+    color: white;
+}
+
+.forgotpassword a:hover {
+    color: #1ED760;
+}
+
+/* For Sign up */
+
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.account span {
+    font-weight: bold;
+    color: #A7A7A7;
+}
+
+.account a {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.account a:hover {
+    color: #1ED760;
+}
+
+/* Footer Description */
+
+.line {
+    background-color: black;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.line span {
+    font-size: 11px;
+    padding-left: 5px;
+    color: gray;
+}
+
+.line a {
+    font-size: 11px;
+    padding-left: 5px;
+    color: gray;
+}
